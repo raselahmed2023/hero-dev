@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* font style */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+/* Font style */
+
+.logo h2{
+    font-size: 45px;
+}
+
+.color-org{
+    color: #FD6E0A;
+}
+
+
+/* share style */
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.con-btn{
+    padding: 15px;
+    color: #FD6E0A;
+    /* border: none; */
+    border-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* main style */
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    background: url("./images/developer.png"), url("./images/header_bg.png"),#FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+
+nav {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+
+/* banner section */
+.banner-content{
+    max-width: 585px;
+}
+
+.banner{
+    margin: 47px 38px 0 230px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .banner-content h3{
+    font-size: 45;
+    color: #474747;
+}
+
+.banner .banner-content p{
+    color: #757575;
+    margin-bottom: 30px;
+}
+.banner .banner-content h1{
+    font-size: 85px;
+}
+
+.banner-image{
+    min-width: 585px;
+    vertical-align: middle;
+}
+
+.about{
+    padding-top: 130px;
+
+}
+
+.about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-heading h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 10px; */
+}
+
+.info-card p{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+
+.skils ,.resume{
+    padding-top: 130px;
+}
+
+.skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.skill-box{
+    display: flex;
+    gap: 25px;
+}
+
+.skill-card{
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 50px 0 #00000026;
+    max-width: 268px;
+}
+
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-card h3{
+    margin-bottom: 20px;
+
+}
+
+.skill-card p{
+    color: #757575;
+}
+
+
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+
+.resume-card h2{
+    font-size: 25px;
+    color: #474747;
+    padding-top: 10px;
+}
+
+.time-period{
+    font-size: 20px;
+    color: #757575;
+    padding-top: 10px;
+
+}
+
+.experi-gain{
+    font-size: 16px;
+    color: #757575;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+.foot-para{
+     font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.icons a{
+    margin-right: 24px;
+}
+
+.text-align{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+    
+}
+
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.social{
+    max-width: 562px;
+}
+
+.footer-container form input[type="text"] ,
+.footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px ;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+
+.form h2{
+    padding-bottom: 28px;
+}
